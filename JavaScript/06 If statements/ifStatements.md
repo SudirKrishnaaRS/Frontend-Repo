@@ -181,3 +181,8 @@ if (age >= 18 && hasVoterID) {
 - **Readable Conditions**: Use clear and readable conditions to make your code easier to understand.
 
 ---
+
+### **8. Summary**
+
+![image](https://github.com/user-attachments/assets/c2d213b9-bc75-437b-b18a-252d75d2c3de)
+
