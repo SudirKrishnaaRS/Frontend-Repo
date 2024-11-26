@@ -9,6 +9,9 @@ JavaScript has two categories of data types:
 
 Primitive types represent a single value and are immutable (cannot be changed).
 
+![image](https://github.com/user-attachments/assets/4f2755b0-26a4-43ad-abdf-6321c7682136)
+
+
 **Examples:**
 
 ```javascript
@@ -24,6 +27,9 @@ let uniqueKey = Symbol("key"); // symbol
 ## 2. Non-Primitive Data Types (Objects)
 
 Objects in JavaScript are collections of key-value pairs and can store multiple data types.
+
+![image](https://github.com/user-attachments/assets/9e06db96-0ef5-4b27-a312-cf179967c07e)
+
 
 **Examples:**
 
@@ -92,3 +98,11 @@ console.log(Number("42")); // OUTPUT: 42
 console.log(String(42)); // OUTPUT: "42"
 console.log(Boolean(0)); // OUTPUT: false
 ```
+
+## Summary
+
+![image](https://github.com/user-attachments/assets/1bcb0b4a-efc3-4994-ab11-a59bfe7530cb)
+
+![image](https://github.com/user-attachments/assets/03f31cf4-007c-4a39-9f39-7d74134ba6bf)
+
+
