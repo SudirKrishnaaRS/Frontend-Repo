@@ -38,6 +38,21 @@ function sum(...numbers) {
 console.log(sum(1, 2, 3)); // OUTPUT: 6
 ```
 
+## 6. Ternary Operator
+
+Short-hand for if-else.
+
+**Syntax:**
+```javascript
+condition ? valueIfTrue : valueIfFalse;
+```
+**Example:**
+
+```javascript
+let age = 18;
+let result = age >= 18 ? "Adult" : "Minor";
+console.log(result); // OUTPUT: "Adult"
+```
 ---
 
 ## Basic Operators
@@ -46,18 +61,33 @@ console.log(sum(1, 2, 3)); // OUTPUT: 6
 
 Used to perform basic mathematical operations.
 
+![image](https://github.com/user-attachments/assets/6b113530-7174-4beb-bf1c-0070aea8baeb)
+
+
 ## 2. Assignment Operators
 
 Used to assign values to variables.
+
+![image](https://github.com/user-attachments/assets/28bd2813-2d1f-454a-9d50-2a7ba23a199b)
+
 
 ## 3. Comparison Operators
 
 Used to compare two values and return a boolean (true or false).
 
+![image](https://github.com/user-attachments/assets/5953761d-ea2b-42fa-8704-3cfdcf5a9ed7)
+
+
 ## 4. Logical Operators
 
 Used to combine multiple boolean expressions.
 
+![image](https://github.com/user-attachments/assets/4778d979-297a-4b4f-a8d5-ce923788d980)
+
+
 ## 5. Bitwise Operators
 
 Operate on binary representations of numbers.
+
+![image](https://github.com/user-attachments/assets/cf330f65-9763-4403-9452-73c17eb86f91)
+
