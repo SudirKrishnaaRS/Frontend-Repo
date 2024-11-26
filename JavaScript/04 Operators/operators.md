@@ -4,17 +4,36 @@ JavaScript operators are symbols or keywords used to perform operations on value
 
 ## 1. Type Operators
 
+![image](https://github.com/user-attachments/assets/d25b6653-0956-4d75-b7d0-bcb8b215f4a4)
+
+
 ## 2. Nullish Coalescing Operator (`??`)
 
 Returns the right-hand value if the left-hand value is null or undefined.
 
 **Example:**
 
+```javascript
+let name = null;
+let defaultName = name ?? "Guest";
+console.log(defaultName); // OUTPUT: "Guest"
+```
+
 ## 3. Optional Chaining Operator (`?.`)
 
 Safely access deeply nested properties without throwing errors if a property doesn’t exist.
 
+**Example:**
+
+```javascript
+let user = { name: "Alice" };
+console.log(user.address?.city); // OUTPUT: undefined
+```
+
 ## 4. Unary Operators
+
+![image](https://github.com/user-attachments/assets/b4e48009-68ac-4562-afd1-d69e1fcf9c47)
+
 
 ## 5. Spread and Rest Operators
 
