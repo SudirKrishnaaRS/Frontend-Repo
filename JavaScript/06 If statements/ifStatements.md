@@ -2,8 +2,6 @@
 
 **If statements** are conditional statements used to execute a block of code only if a specified condition evaluates to `true`.
 
----
-
 ### **Syntax**
 
 ```javascript
@@ -185,4 +183,3 @@ if (age >= 18 && hasVoterID) {
 ### **8. Summary**
 
 ![image](https://github.com/user-attachments/assets/c2d213b9-bc75-437b-b18a-252d75d2c3de)
-
