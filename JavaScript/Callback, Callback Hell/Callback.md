@@ -37,7 +37,7 @@ processUserInput(greet);
 
 ## Examples of Callbacks in Synchronous and Async
 
-### **1. Synchronous Callback**
+**1. Synchronous Callback**
 
 A callback executed immediately during the function execution is called a **synchronous callback**.
 
@@ -59,7 +59,7 @@ calculateSum(5, 10, printResult);
 
 ---
 
-### **2. Asynchronous Callback**
+**2. Asynchronous Callback**
 
 A callback executed after some asynchronous operation is called an **asynchronous callback**.
 
@@ -85,7 +85,7 @@ fetchData(processData);
 
 ---
 
-### **3. Anonymous Callback Functions**
+**3. Anonymous Callback Functions**
 
 You can use an **anonymous function** as a callback instead of a named function.
 
