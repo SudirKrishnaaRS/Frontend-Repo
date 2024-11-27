@@ -6,18 +6,18 @@ Error handling ensures that your application can gracefully manage runtime error
 
 ### **1. Types of Errors in JavaScript**
 
-1.  **Syntax Errors**: Occur due to incorrect code syntax.
+1. **Syntax Errors**: Occur due to incorrect code syntax.
 
-    - **Example**: `console.log("Hello;`
-    - Fix: Correct the syntax, e.g., `console.log("Hello");`
+   - **Example**: `console.log("Hello;`
+   - Fix: Correct the syntax, e.g., `console.log("Hello");`
 
-2.  **Runtime Errors**: Occur during execution when the code attempts an operation it cannot perform.
+2. **Runtime Errors**: Occur during execution when the code attempts an operation it cannot perform.
 
-    - **Example**: `let x = y + 1; // y is not defined`
+   - **Example**: `let x = y + 1; // y is not defined`
 
-3.  **Logical Errors**: Occur due to flaws in the program logic, causing incorrect behavior without throwing explicit errors.
+3. **Logical Errors**: Occur due to flaws in the program logic, causing incorrect behavior without throwing explicit errors.
 
-    - **Example**: Writing `if (x = 10)` instead of `if (x === 10)`.
+   - **Example**: Writing `if (x = 10)` instead of `if (x === 10)`.
 
 ---
 
@@ -25,7 +25,7 @@ Error handling ensures that your application can gracefully manage runtime error
 
 The `try...catch` block is used to handle errors gracefully.
 
-#### Syntax:
+#### Syntax
 
 ```javascript
 try {
@@ -35,7 +35,7 @@ try {
 }
 ```
 
-#### Example:
+#### Example
 
 ```javascript
 try {
@@ -54,7 +54,7 @@ try {
 
 The `finally` block is used to execute code regardless of whether an error occurs or not.
 
-#### Syntax:
+#### Syntax
 
 ```javascript
 try {
@@ -66,7 +66,7 @@ try {
 }
 ```
 
-#### Example:
+#### Example
 
 ```javascript
 try {
@@ -89,7 +89,7 @@ try {
 
 You can explicitly throw errors using the `throw` statement.
 
-#### Example:
+#### Example
 
 ```javascript
 function checkAge(age) {
@@ -113,13 +113,13 @@ try {
 
 The `Error` object provides details about the error.
 
-#### Properties:
+#### Properties
 
 - `name`: Name of the error (e.g., `ReferenceError`, `TypeError`).
 - `message`: A description of the error.
 - `stack`: Stack trace showing where the error occurred.
 
-#### Example:
+#### Example
 
 ```javascript
 try {
@@ -139,7 +139,7 @@ try {
 
 ### **7. Best Practices for Error Handling**
 
-1.  **Use Specific Catch Blocks**: Catch specific errors where possible.
+1. **Use Specific Catch Blocks**: Catch specific errors where possible.
 
 - **Example**:
 
@@ -155,10 +155,10 @@ try {
 }
 ```
 
-2.  **Avoid Catching All Errors Globally**: Don't suppress all errors; it can hide issues.
-3.  **Log Errors**: Use proper logging to help with debugging.
-4.  **Throw Meaningful Errors**: Provide clear messages when throwing custom errors.
-5.  **Use Graceful Fallbacks**: Provide alternate functionality or a user-friendly message when errors occur.
+2. **Avoid Catching All Errors Globally**: Don't suppress all errors; it can hide issues.
+3. **Log Errors**: Use proper logging to help with debugging.
+4. **Throw Meaningful Errors**: Provide clear messages when throwing custom errors.
+5. **Use Graceful Fallbacks**: Provide alternate functionality or a user-friendly message when errors occur.
 
 ---
 
