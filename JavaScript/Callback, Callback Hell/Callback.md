@@ -100,7 +100,7 @@ setTimeout(() => {
 
 ---
 
-### **2.Callback Hell (Nested Callbacks)**
+## **2.Callback Hell (Nested Callbacks)**
 
 When multiple callbacks are nested, the code becomes hard to read and maintain. This is known as **callback hell**.
 
