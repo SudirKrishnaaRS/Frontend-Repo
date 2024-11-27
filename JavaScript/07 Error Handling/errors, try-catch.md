@@ -135,6 +135,9 @@ try {
 
 ### **6. Common Error Types**
 
+![image](https://github.com/user-attachments/assets/6f5ca607-1b0e-49e5-b9b5-0bbaea4c84a0)
+
+
 ---
 
 ### **7. Best Practices for Error Handling**
@@ -163,3 +166,5 @@ try {
 ---
 
 ### **8. Summary Table**
+
+![image](https://github.com/user-attachments/assets/923b856d-e032-40e1-ba9b-1d8266a38dd8)
