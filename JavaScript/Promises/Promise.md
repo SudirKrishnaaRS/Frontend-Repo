@@ -7,11 +7,11 @@ failure of an asynchronous operation
 
 > Promise objects are immutable
 
-## Promise States:
+## Promise States
 
-1.  Pending: initial state (neither fulfilled or rejected)
-2.  Fulfilled: meaning the operation was successful
-3.  Rejected: means the operation failed
+1. `Pending`: initial state (neither fulfilled or rejected)
+2. `Fulfilled`: meaning the operation was successful
+3. `Rejected`: means the operation failed
 
 ## Creating a Promise
 
