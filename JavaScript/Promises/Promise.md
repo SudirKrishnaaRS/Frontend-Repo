@@ -1,6 +1,6 @@
 # Promises
 
-## Definition
+## MDN Definition
 
 Promise object represents an eventual completion or
 failure of an asynchronous operation
