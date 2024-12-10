@@ -87,5 +87,3 @@ Semantic HTML uses elements that have meaningful names describing their purpose,
 
 5. **What are the accessibility benefits of using `<nav>` or `<main>`?**  
    Screen readers can identify `<nav>` as the navigation region and `<main>` as the primary content, allowing users to navigate pages efficiently without unnecessary repetition.
-
-Let me know which topic you’d like to tackle next!
