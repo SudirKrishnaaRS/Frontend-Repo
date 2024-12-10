@@ -36,6 +36,10 @@ The DOM represents the structure of a document as a tree of objects that can be 
 4. **Event Handling**:
    - `addEventListener(event, callback)` attaches event listeners.
    - Common events: `click`, `mouseover`, `keydown`, `DOMContentLoaded`.
+   - Several Javascript Events :
+    
+ ![image](https://github.com/user-attachments/assets/da6f2243-f460-4bdf-ab6e-08dd40bd05d0)
+
 
 #### Benefits
 
