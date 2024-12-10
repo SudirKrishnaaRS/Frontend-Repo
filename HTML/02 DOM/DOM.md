@@ -54,24 +54,29 @@ The DOM represents the structure of a document as a tree of objects that can be 
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Example</title>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const button = document.getElementById("myButton");
-        button.addEventListener("click", () => {
-          const newItem = document.createElement("li");
-          newItem.textContent = "New Item";
-          document.getElementById("myList").appendChild(newItem);
-        });
-      });
-    </script>
   </head>
   <body>
-    <button id="myButton">Add Item</button>
-    <ul id="myList">
+    <button id="addItem">Add</button>
+    <ul id="list">
       <li>Item 1</li>
       <li>Item 2</li>
     </ul>
+
+    <script>
+      const list = document.getElementById("list");
+
+      const addButton = document.getElementById("addItem");
+
+      // Adding a new Item to the list on button click
+      addButton.addEventListener("click", () => {
+        const newItem = document.createElement("li");
+        newItem.innerHTML = "New Item";
+        list.appendChild(newItem);
+      });
+    </script>
   </body>
 </html>
 ```
