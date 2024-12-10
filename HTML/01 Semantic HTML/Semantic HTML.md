@@ -1,8 +1,11 @@
-# Semantic HTML: Interview Notes
+# Semantic HTML
 
 #### Definition
 
 Semantic HTML uses elements that have meaningful names describing their purpose, improving the structure and accessibility of a webpage.
+
+![image](https://github.com/user-attachments/assets/711bb61c-1df0-4d07-8b77-f25081c9480c)
+
 
 #### Common Semantic Tags
 
