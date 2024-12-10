@@ -63,6 +63,10 @@ Semantic HTML uses elements that have meaningful names describing their purpose,
 </html>
 ```
 
+#### Code OUTPUT
+![image](https://github.com/user-attachments/assets/d250c56a-22bd-4460-a92a-be6f952cadad)
+
+
 #### Common Interview Questions and Answers
 
 1. **Why is semantic HTML important?**  
