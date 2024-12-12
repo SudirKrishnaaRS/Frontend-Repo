@@ -52,7 +52,7 @@
 
 ### CRP Steps in a NutShell
 
-1. Parse HTML → Create DOM.
+1. Browser Parse HTML → Create DOM.
 2. Parse CSS → Create CSSOM.
 3. Combine DOM and CSSOM → Generate Render Tree.
 4. Layout → Calculate element positions.
