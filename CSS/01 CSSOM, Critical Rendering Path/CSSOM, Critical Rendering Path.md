@@ -39,3 +39,5 @@
    - The browser paints the pixels on the screen.
 
 ![image](https://github.com/user-attachments/assets/ed0c0e09-291a-4c31-989a-03bcfab0d023)
+
+> Reference : https://www.lambdatest.com/blog/css-object-model/
