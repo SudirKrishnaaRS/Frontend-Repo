@@ -6,8 +6,6 @@ This Repo includes several topics for Frontend
 - Semantic HTML
 - Form, Form Validation, Form Data API
 
-
-
 ## CSS
 
 - CSSOM, Critical Rendering Path
