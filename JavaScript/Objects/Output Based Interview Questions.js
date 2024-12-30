@@ -67,3 +67,29 @@ console.log(a);
 // So the final output is : { '[object Object]': 456 }
 
 //________________________________________________________________
+
+// Question 4: Difference between JSON.stringify
+// and JSON.parse
+
+// Ans: The main difference is:
+// - JSON.stringify :  Converts an Object into a String
+// - JSON.parse : Converts a String into an Object
+
+// Most Common Usecase:
+// Useful to store in local storage
+// Stored as string using JSON.stringify
+//  Retrieved and converted back to object using JSON.parse
+
+// Example:
+const user = {
+  name: "Sudir",
+  age: 25,
+};
+
+const stringifiedObj = JSON.stringify(user);
+console.log(stringifiedObj); // {"name":"Sudir","age":25}
+
+const obj2 = JSON.parse(stringifiedObj);
+console.log(obj2); // { name: 'Sudir', age: 25 }
+
+//________________________________________________________________
