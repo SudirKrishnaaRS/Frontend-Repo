@@ -136,3 +136,18 @@ console.log(copy1);
 //  }
 
 // _________________________________
+
+// 5. Object.freeze(obj)
+// Makes the object immutable.
+
+// _________________________________
+
+// 6. Object.seal(obj)
+// Prevents adding/removing properties but allows modification.
+
+// _________________________________
+
+// 7. Object.create(proto)
+// Creates an object with the specified prototype.
+
+// ___________________________________________________________________
