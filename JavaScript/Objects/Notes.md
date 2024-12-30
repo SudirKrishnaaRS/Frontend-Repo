@@ -1,4 +1,4 @@
-### Objects in JavaScript: Interview Notes
+# Objects in JavaScript: Interview Notes
 
 #### Definition
 
