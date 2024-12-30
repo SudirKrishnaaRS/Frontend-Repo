@@ -44,3 +44,26 @@ console.log(nums);
 // { a: 200, b: 400, title: 'My nums' }
 
 //________________________________________________________________
+
+// === IMPORTANT & REPEATED Question ===
+// Question 3: Guess the Output
+
+const a = {};
+const b = { key: "b" };
+const c = { key: "c" };
+
+a[b] = 123;
+a[c] = 456;
+
+console.log(a);
+
+// OUTPUT: 456
+
+// NOTE: when you assign an object as a key thenit will
+// be treated as :
+// a[b] = 123 -> means { '[object Object]': 123 }
+// Then next line is
+// a[c] = 456 -> { '[object Object]': 456 }
+// So the final output is : { '[object Object]': 456 }
+
+//________________________________________________________________
