@@ -82,3 +82,57 @@ for (key in user) {
 // India
 
 // ________________________________________________________________
+
+// Object Methods:
+
+// 1. Object.keys(obj)
+// Returns an array of the object's keys.
+const res1 = Object.keys(user);
+console.log(res1);
+
+// OUTPUT:
+// [ 'name', 'age', 'gender', 'place of birth' ]
+
+// _________________________________
+
+// 2. Object.values(obj)
+// Returns an array of the object's values.
+const res2 = Object.values(user);
+console.log(res2);
+
+// OUTPUT:
+// [ 'Sudir Krishnaa', 24, 'male', 'India' ]
+
+// _________________________________
+
+// 3. Object.entries(obj)
+
+const res3 = Object.entries(user);
+console.log(res3);
+
+// OUTPUT:
+// [
+//     [ 'name', 'Sudir Krishnaa' ],
+//     [ 'age', 24 ],
+//     [ 'gender', 'male' ],
+//     [ 'place of birth', 'India' ]
+//  ]
+
+// _________________________________
+
+// 4. Object.assign(target, src)
+// Copies properties from source to target.
+
+let copy1 = {};
+Object.assign(copy1, user);
+console.log(copy1);
+
+// OUTPUT:
+// {
+//     name: 'Sudir Krishnaa',
+//     age: 24,
+//     gender: 'male',
+//     'place of birth': 'India'
+//  }
+
+// _________________________________
