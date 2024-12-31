@@ -112,3 +112,15 @@ console.log(admin);
 // Ans: { admin: true, name: 'Sudir', age: 25 }
 
 //________________________________________________________________
+
+// Question 7: Guess the Output
+
+const c1 = { greeting: "Hey" };
+const d1 = c1;
+
+d1.greeting = "Hello";
+console.log(c1);
+
+// Ans: { greeting: 'Hello' }
+// NOTE: Here it is by reference
+//________________________________________________________________
