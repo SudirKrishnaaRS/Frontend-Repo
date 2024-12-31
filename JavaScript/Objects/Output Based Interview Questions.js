@@ -128,7 +128,7 @@ console.log(c1);
 // Question 8: Guess the Output
 
 console.log({ a: 1 } == { a: 1 });
-console.log({ a: 1 } === { a: 1 });
+// console.log({ a: 1 } === { a: 1 });
 
 // Ans:
 // false
