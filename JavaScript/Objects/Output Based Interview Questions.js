@@ -96,8 +96,19 @@ console.log(obj2); // { name: 'Sudir', age: 25 }
 
 // Question 5: Guess the Output
 
-console.log(..."Sudir");
+console.log([..."Sudir"]);
 
 // Ans: [ 'S', 'u', 'd', 'i', 'r' ]
+
+//________________________________________________________________
+
+// Question 6: Guess the Output
+
+const user2 = { name: "Sudir", age: 25 };
+const admin = { admin: true, ...user2 };
+
+console.log(admin);
+
+// Ans: { admin: true, name: 'Sudir', age: 25 }
 
 //________________________________________________________________
