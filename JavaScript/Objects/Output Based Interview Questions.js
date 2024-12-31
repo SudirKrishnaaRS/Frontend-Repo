@@ -150,3 +150,64 @@ console.log(members);
 // Note: Instead of doing `person = null;` if we do
 // `person.name = null;` then output is [ { name: null } ]
 //________________________________________________________________
+
+// Question 10: How to Deep Copy / Clone an Object?
+
+let user3 = {
+  name: "Sudir",
+  age: 24,
+};
+
+// Ans:
+// 3 Most popular ways to Deep Copy:
+
+// === 1. Using Object.assign() ===
+const objClone = Object.assign({}, user3);
+user3.name = "Krish";
+console.log(user3, objClone);
+
+// OUTPUT:
+// [
+//   { name: "Krish", age: 24 },
+//   { name: "Sudir", age: 24 },
+// ];
+
+// _____________________________
+
+// === 2. Using JSON.stringify() and JSON.parse() ===
+let user4 = {
+  name: "Sudir",
+  age: 24,
+};
+
+const objClone2 = JSON.parse(JSON.stringify(user4));
+user4.name = "Krish";
+
+console.log(user4, objClone2);
+
+// OUTPUT:
+// [
+//   { name: "Krish", age: 24 },
+//   { name: "Sudir", age: 24 },
+// ];
+
+// _____________________________
+
+// === 2. Using JSON.stringify() and JSON.parse() ===
+let user5 = {
+  name: "Sudir",
+  age: 24,
+};
+
+const objClone5 = { ...user5 };
+user5.name = "Krish";
+
+console.log(user5, objClone5);
+
+// OUTPUT:
+// [
+//   { name: "Krish", age: 24 },
+//   { name: "Sudir", age: 24 },
+// ];
+
+//________________________________________________________________
