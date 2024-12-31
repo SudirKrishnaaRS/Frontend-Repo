@@ -124,3 +124,15 @@ console.log(c1);
 // Ans: { greeting: 'Hello' }
 // NOTE: Here it is by reference
 //________________________________________________________________
+
+// Question 8: Guess the Output
+
+console.log({ a: 1 } == { a: 1 });
+console.log({ a: 1 } === { a: 1 });
+
+// Ans:
+// false
+// false
+
+// NOTE: Both objects are stored in a different memory space so they are not equal
+//________________________________________________________________
