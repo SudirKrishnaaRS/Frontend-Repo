@@ -136,3 +136,17 @@ console.log({ a: 1 } == { a: 1 });
 
 // NOTE: Both objects are stored in a different memory space so they are not equal
 //________________________________________________________________
+
+// Question 9: Guess the Output
+
+let person = { name: "Sudir" };
+const members = [person];
+person = null;
+
+console.log(members);
+
+// Ans: [ { name: 'Sudir' } ]
+
+// Note: Instead of doing `person = null;` if we do
+// `person.name = null;` then output is [ { name: null } ]
+//________________________________________________________________
