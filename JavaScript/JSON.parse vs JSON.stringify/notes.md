@@ -21,8 +21,9 @@ const user = {
 };
 
 const stringifiedObj = JSON.stringify(user);
+localStorage.setItem("test", stringifiedObj);
 console.log(stringifiedObj); // {"name":"Sudir","age":25}
 
-const obj2 = JSON.parse(stringifiedObj);
+const obj2 = JSON.parse(localStorage.getItem("test"));
 console.log(obj2); // { name: 'Sudir', age: 25 }
 ```
