@@ -93,3 +93,11 @@ const obj2 = JSON.parse(stringifiedObj);
 console.log(obj2); // { name: 'Sudir', age: 25 }
 
 //________________________________________________________________
+
+// Question 5: Guess the Output
+
+console.log(..."Sudir");
+
+// Ans: [ 'S', 'u', 'd', 'i', 'r' ]
+
+//________________________________________________________________
