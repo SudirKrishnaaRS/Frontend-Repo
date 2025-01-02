@@ -1,4 +1,4 @@
-// How to Deep Copy / Clone an Object?
+// How to Clone an Object?
 
 let user1 = {
   name: "Sudir",
@@ -6,8 +6,9 @@ let user1 = {
 };
 
 // Ans:
-// 3 Most popular ways to Deep Copy:
+// 3 Most popular ways to Clone:
 
+// SHALLOW COPY
 // === 1. Using Object.assign() ===
 const objClone = Object.assign({}, user1);
 user1.name = "Krish";
@@ -20,7 +21,7 @@ console.log(user1, objClone);
 // ];
 
 // _____________________________
-
+// DEEP COPY
 // === 2. Using JSON.stringify() and JSON.parse() ===
 let user2 = {
   name: "Sudir",
@@ -39,8 +40,8 @@ console.log(user2, objClone2);
 // ];
 
 // _____________________________
-
-// === 2. Using JSON.stringify() and JSON.parse() ===
+// SHALLOW COPY
+// === 3. Spread Operator ===
 let user3 = {
   name: "Sudir",
   age: 24,
