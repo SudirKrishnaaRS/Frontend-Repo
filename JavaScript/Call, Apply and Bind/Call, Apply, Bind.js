@@ -17,17 +17,23 @@ function purchaseCar(firstName, lastName) {
 }
 
 // Call
-// SYNTAX: call(objContext, arg1, arg2,...)
+// Purpose: Calls a function with a specified `this` context and arguments passed individually.
+// Syntax: func.call(objContext, arg1, arg2, ...)
+
 purchaseCar.call(car1, "Sudir", "Krishnaa");
 // OUTPUT: Thanks for purchasing Ferrari - Russo Red. Have a safe journey Sudir Krishnaa !
 
 // Apply
-// SYNTAX: apply(objContext, [arg1, arg2, ...]);
+// Purpose: Similar to call(), but arguments are passed as an array.
+// Syntax: func.apply(objContext, [arg1, arg2, ...])
+
 purchaseCar.apply(car1, ["Sudir", "Krishnaa"]);
 // OUTPUT: Thanks for purchasing Ferrari - Russo Red. Have a safe journey Sudir Krishnaa !
 
 // Bind
-// Syntax: bind(obj) which returns a reusable function binded with the object
+// Purpose: Returns a new function with the specified this context and optionally pre-filled arguments, without calling it immediately.
+// Syntax: func.bind(objContext, arg1, arg2, ...)
+
 let purchaseFerrari = purchaseCar.bind(car1);
 purchaseFerrari("Sudir", "Krishnaa");
 // OUTPUT: Thanks for purchasing Ferrari - Russo Red. Have a safe journey Sudir Krishnaa !
