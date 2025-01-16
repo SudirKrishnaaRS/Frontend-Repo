@@ -24,6 +24,8 @@ This Repo includes several topics for Frontend
 - If Statements
 - Error Handling
 - Functions
+- Call, Apply and Bind (V.Easy)
+- Polyfills for Call, Apply and Bind (V.Easy)
 - Browser Storage - Cookies, Session, Local Storage & IndexedDB
 - Callback, Callback Hell
 - Critical Rendering Path (CRP)
