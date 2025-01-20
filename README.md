@@ -1,4 +1,5 @@
 # Frontend Repo
+
 This Repo includes several topics for Frontend
 
 ## HTML
@@ -11,8 +12,6 @@ This Repo includes several topics for Frontend
 - CSSOM, Critical Rendering Path
 - CSS Rules
 - CSS Selectors
-
-
 
 ## JavaScript
 
@@ -31,7 +30,7 @@ This Repo includes several topics for Frontend
 - Critical Rendering Path (CRP)
 - DOM
 - Promises
-
+- Map, Filter and Reduce
 
 ## React Concepts with Examples
 
@@ -64,10 +63,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-
-
 ## Coding Questions
 
 - JavaScript:
   - Anagaram
-
