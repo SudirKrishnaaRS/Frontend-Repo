@@ -31,7 +31,7 @@ This Repo includes several topics for Frontend
 - DOM
 - Promises
 - Map, Filter and Reduce
-- Polyfills for Map, Filter
+- Polyfills for Map, Filter and Reduce
 
 ## React Concepts with Examples
 
