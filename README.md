@@ -32,6 +32,7 @@ This Repo includes several topics for Frontend
 - Promises
 - Map, Filter and Reduce
 - Polyfills for Map, Filter and Reduce
+- map() vs forEach()
 
 ## React Concepts with Examples
 
