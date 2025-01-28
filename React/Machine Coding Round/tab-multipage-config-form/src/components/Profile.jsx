@@ -18,6 +18,7 @@ const Profile = ({ data, setData }) => {
 
       <label htmlFor="name">Name</label>
       <input
+        id="name"
         name="name"
         type="text"
         value={name}
@@ -26,6 +27,7 @@ const Profile = ({ data, setData }) => {
 
       <label htmlFor="age">Age</label>
       <input
+        id="age"
         name="age"
         type="number"
         value={age}
@@ -34,6 +36,7 @@ const Profile = ({ data, setData }) => {
 
       <label htmlFor="email">email</label>
       <input
+        id="email"
         name="email"
         type="email"
         value={email}
