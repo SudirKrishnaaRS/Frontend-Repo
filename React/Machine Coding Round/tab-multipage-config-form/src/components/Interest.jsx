@@ -1,6 +1,6 @@
 import React from "react";
 
-const Interest = () => {
+const Interest = ({ data, setData }) => {
   return <div>Interest</div>;
 };
 
