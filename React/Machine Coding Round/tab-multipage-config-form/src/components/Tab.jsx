@@ -20,6 +20,13 @@ const Tabs = [
 
 const Tab = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const [data, setData] = useState({
+    name: "",
+    age: "",
+    email: "",
+    languages: [],
+    darkTheme: false,
+  });
   const ActiveTabComponent = Tabs[activeTab].component;
 
   //   console.log(activeTab, ActiveTabComponent);
@@ -37,7 +44,7 @@ const Tab = () => {
       })}
 
       <div>
-        <ActiveTabComponent />
+        <ActiveTabComponent data={data} setData={setData} />
       </div>
     </div>
   );
