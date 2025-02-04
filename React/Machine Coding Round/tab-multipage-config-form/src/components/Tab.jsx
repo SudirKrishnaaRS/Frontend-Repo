@@ -24,7 +24,7 @@ const Tab = () => {
     name: "",
     age: "",
     email: "",
-    languages: [],
+    interests: [],
     darkTheme: false,
   });
   const ActiveTabComponent = Tabs[activeTab].component;
