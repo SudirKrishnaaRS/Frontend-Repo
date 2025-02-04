@@ -24,8 +24,8 @@ const Tab = () => {
     name: "",
     age: "",
     email: "",
-    interests: [],
-    darkTheme: false,
+    interests: ["coding", "javascript"],
+    darkTheme: "dark",
   });
   const ActiveTabComponent = Tabs[activeTab].component;
 
