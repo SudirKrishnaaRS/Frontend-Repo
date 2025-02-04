@@ -17,6 +17,8 @@ This Repo includes several topics for Frontend
 - CSS Rules
 - CSS Selectors
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## JavaScript
 
 - Variables - let, const & var
@@ -74,6 +76,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 - Anagaram
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## React
 
 - Build a Tab component + Multi Page Form
@@ -86,4 +90,5 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## Authors
 
 - [@SudirKrishnaaRS](https://www.github.com/SudirKrishnaaRS)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
