@@ -90,5 +90,3 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## Authors
 
 - [@SudirKrishnaaRS](https://www.github.com/SudirKrishnaaRS)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
