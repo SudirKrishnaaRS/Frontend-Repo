@@ -2,7 +2,7 @@
 const Settings = ({ data, setData }) => {
   const { darkTheme } = data;
 
-  const handleClick = (e) => {
+  const handleChange = (e) => {
     setData((prevData) => {
       return { ...prevData, darkTheme: e.target.name };
     });
@@ -16,7 +16,7 @@ const Settings = ({ data, setData }) => {
           type="radio"
           name="dark"
           checked={darkTheme === "dark"}
-          onChange={(e) => handleClick(e)}
+          onChange={(e) => handleChange(e)}
         />
         <label htmlFor="dark">Dark</label>
 
@@ -24,7 +24,7 @@ const Settings = ({ data, setData }) => {
           type="radio"
           name="light"
           checked={darkTheme === "light"}
-          onChange={handleClick}
+          onChange={(e) => handleChange(e)}
         />
         <label htmlFor="light">Light</label>
       </div>
