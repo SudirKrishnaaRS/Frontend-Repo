@@ -1,3 +1,9 @@
+# Build a Tab component + Multi Page Form
+
+- Difficulty: Normal
+- **Companies**: Myntra, Zepto
+- Question and Reference: [Click here](https://youtu.be/UTky8eipUhA?si=I2oB210p4CUCQYoS)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
