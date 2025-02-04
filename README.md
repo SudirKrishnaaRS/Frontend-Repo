@@ -36,6 +36,8 @@ This Repo includes several topics for Frontend
 - Polyfills for Map, Filter and Reduce
 - map() vs forEach()
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## React Concepts with Examples
 
 - Class Components
@@ -62,6 +64,8 @@ This Repo includes several topics for Frontend
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Coding Questions
 
 ## JavaScript
@@ -75,6 +79,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
   - **Companies**: Myntra, Zepto
   - Question and Reference: [Click here](https://youtu.be/UTky8eipUhA?si=I2oB210p4CUCQYoS)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Authors
 
 - [@SudirKrishnaaRS](https://www.github.com/SudirKrishnaaRS)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
