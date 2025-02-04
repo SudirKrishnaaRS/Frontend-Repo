@@ -73,6 +73,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
   - **Companies**: Myntra, Zepto
   - Question and Reference: [Click here](https://youtu.be/UTky8eipUhA?si=I2oB210p4CUCQYoS)
 
-# Author
+## Authors
 
-- [Sudir Krishnaa](https://github.com/SudirKrishnaaRS)
+- [@SudirKrishnaaRS](https://www.github.com/SudirKrishnaaRS)
