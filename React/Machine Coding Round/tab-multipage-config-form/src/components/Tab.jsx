@@ -43,6 +43,12 @@ const Tab = () => {
     }
   };
 
+  const handleSubmit = () => {
+    // POST to an API endpoint
+
+    console.log("Form Submitted", data);
+  };
+
   return (
     <div>
       {Tabs.map((tab, index) => {
@@ -67,6 +73,9 @@ const Tab = () => {
         </button>
         <button onClick={handleNext} disabled={activeTab >= Tabs.length - 1}>
           Next
+        </button>
+        <button onClick={handleSubmit} disabled={activeTab !== Tabs.length - 1}>
+          Submit
         </button>
       </div>
     </div>
