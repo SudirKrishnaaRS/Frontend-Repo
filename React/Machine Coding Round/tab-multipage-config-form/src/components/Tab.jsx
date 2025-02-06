@@ -31,6 +31,12 @@ const Tab = () => {
 
   //   console.log(activeTab, ActiveTabComponent);
 
+  const handlePrevious = () => {
+    if (activeTab > 0 && activeTab <= Tabs.length - 1) {
+      setActiveTab((currTab) => currTab - 1);
+    }
+  };
+
   return (
     <div>
       {Tabs.map((tab, index) => {
@@ -45,6 +51,14 @@ const Tab = () => {
 
       <div>
         <ActiveTabComponent data={data} setData={setData} />
+      </div>
+
+      <br />
+      <br />
+      <div>
+        <button onClick={handlePrevious} disabled={activeTab < 1}>
+          Previous
+        </button>
       </div>
     </div>
   );
