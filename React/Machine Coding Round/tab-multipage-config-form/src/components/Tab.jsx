@@ -56,8 +56,8 @@ const Tab = () => {
       name: "Settings",
       component: Settings,
       validate: () => {
-        // This tab has NO Form Validations so we just return TRUE
-        return true;
+        // This tab has NO Form Validations so we just return FALSE
+        return false;
       },
     },
   ];
@@ -95,7 +95,10 @@ const Tab = () => {
       {Tabs.map((tab, index) => {
         return (
           <>
-            <button key={index} onClick={() => setActiveTab(index)}>
+            <button
+              key={index}
+              onClick={() => !Tabs[activeTab].validate() && setActiveTab(index)}
+            >
               {tab.name}
             </button>
           </>
