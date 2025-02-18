@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Interest = ({ data, setData }) => {
+const Interest = ({ data, setData, errors }) => {
   const { interests } = data;
 
   const handleChange = (e) => {
@@ -47,6 +47,7 @@ const Interest = ({ data, setData }) => {
         />
         <label htmlFor="javascript">Javascript</label>
       </div>
+      {errors?.interests && <span className="error">{errors.interests}</span>}
     </div>
   );
 };
