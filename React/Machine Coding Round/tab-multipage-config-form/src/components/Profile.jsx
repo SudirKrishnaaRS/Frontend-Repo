@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-
 const Profile = ({ data, setData, errors }) => {
   const { name, age, email } = data;
 
