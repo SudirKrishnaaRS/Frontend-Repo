@@ -7,21 +7,21 @@
 
 When including scripts (`<script>` tags) in an HTML document, they can load and execute in different ways: **normal, async, and defer**. The execution method affects how the page is loaded and rendered.
 
-## **1. Normal Script Execution (Without async or defer)**
+## 1. Normal Script Execution (Without async or defer)
 
 - The browser **pauses HTML parsing** when it encounters a script tag.
 - It **fetches and executes the script immediately**.
 - After execution, the browser **resumes HTML parsing**.
 - This can **block rendering**, making the page load slower.
 
-## **2. Async Script Execution (`async` attribute)**
+## 2. Async Script Execution (`async` attribute)
 
 - The script is **fetched in parallel** while HTML parsing continues.
 - Once fetched, **HTML parsing pauses**, and the script **executes immediately**.
 - Parsing resumes after execution.
 - **Best for scripts that don’t depend on other scripts or DOM content**.
 
-## **3. Defer Script Execution (`defer` attribute)**
+## 3. Defer Script Execution (`defer` attribute)
 
 - The script is **fetched in parallel** while HTML parsing continues.
 - The script **executes only after HTML parsing is complete**.
