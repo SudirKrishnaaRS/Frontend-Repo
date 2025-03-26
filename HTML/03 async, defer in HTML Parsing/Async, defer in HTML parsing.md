@@ -2,6 +2,9 @@
 
 > Reference: https://youtu.be/IrHmpdORLu8?si=lpt4Dgjr2RHfwXrL
 
+![image](https://github.com/user-attachments/assets/6708bd89-8322-416b-8b4f-c7d2f2ec6e74)
+
+
 When including scripts (`<script>` tags) in an HTML document, they can load and execute in different ways: **normal, async, and defer**. The execution method affects how the page is loaded and rendered.
 
 ## **1. Normal Script Execution (Without async or defer)**
