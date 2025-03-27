@@ -19,7 +19,7 @@ function Counter() {
   };
 }
 
-const counter1 = new Counter();
+const counter1 = new Counter(); // We use `new` here as it's a constructor function
 counter1.incrementCounter();
 counter1.incrementCounter();
 counter1.incrementCounter();
