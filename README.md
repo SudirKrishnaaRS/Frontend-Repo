@@ -8,6 +8,7 @@ This Repo includes several topics for Frontend
 
 - Semantic HTML
 - Form, Form Validation, Form Data API
+- Async, Defer in HTML Parsing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
