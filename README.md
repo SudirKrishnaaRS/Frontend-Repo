@@ -39,6 +39,9 @@ This Repo includes several topics for Frontend
 - Map, Filter and Reduce
 - Polyfills for Map, Filter and Reduce
 - map() vs forEach()
+- Closures
+  - Closures with a Simple code example
+  - Data Hidding and Encapsulation using Closures
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
