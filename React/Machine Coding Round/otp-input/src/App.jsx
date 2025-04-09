@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const OTP_INPUT_SIZE = 5;
+const OTP_INPUT_SIZE = 6;
 
 function App() {
   const [inputArr, setInputArr] = useState(new Array(OTP_INPUT_SIZE).fill(""));
@@ -29,6 +29,14 @@ function App() {
     updatedVal && refArr.current[index + 1]?.focus();
   };
 
+  const handleKeyDown = (e, index) => {
+    // If the current input is empty AND
+    // if the "Backspace" key is pressed then shift the focus to previous input
+    if (!e.target.value && e.key === "Backspace") {
+      refArr.current[index - 1]?.focus();
+    }
+  };
+
   return (
     <>
       <h2>OTP Validation</h2>
@@ -43,6 +51,7 @@ function App() {
             }}
             value={inputArr[index]}
             onChange={(e) => handleChange(e.target.value, index)}
+            onKeyDown={(e) => handleKeyDown(e, index)}
           />
         );
       })}
