@@ -6,6 +6,7 @@ const OTP_INPUT_SIZE = 6;
 function App() {
   const [inputArr, setInputArr] = useState(new Array(OTP_INPUT_SIZE).fill(""));
 
+  // Ref is a Array of Inputs
   const refArr = useRef([]);
 
   useEffect(() => {
