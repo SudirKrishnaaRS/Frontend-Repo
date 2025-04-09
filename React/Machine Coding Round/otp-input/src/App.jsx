@@ -46,6 +46,7 @@ function App() {
             type="text"
             className="otp-input"
             key={index}
+            // MOST IMPORTANT: Assign the ref of each input to refArr using the index
             ref={(input) => {
               return (refArr.current[index] = input);
             }}
