@@ -10,6 +10,7 @@ function App() {
   const refArr = useRef([]);
 
   useEffect(() => {
+    // Focus on the first input box in the initial load
     refArr.current[0]?.focus();
   }, []);
 
