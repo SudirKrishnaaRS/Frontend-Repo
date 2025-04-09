@@ -7,13 +7,16 @@ function App() {
   const [inputArr, setInputArr] = useState(new Array(OTP_INPUT_SIZE).fill(""));
 
   const handleChange = (val, index) => {
-    //If the value is not a NUMBER then return
-    if (isNaN(val)) {
+    // TRIM: Remove the leading and trailing white space
+    const updatedVal = val.trim();
+
+    // If the value is not a NUMBER then return
+    if (isNaN(updatedVal)) {
       return;
     }
 
     const newArr = [...inputArr];
-    newArr[index] = val;
+    newArr[index] = updatedVal.slice(-1); // SLICE: to accept the latest typed value
     setInputArr(newArr);
   };
 
