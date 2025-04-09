@@ -23,6 +23,7 @@ function App() {
       return;
     }
 
+    // IMPORTANT: Create a new array then spread the old array, then modify this newly created array and set this newly created array
     const newArr = [...inputArr];
     newArr[index] = updatedVal.slice(-1); // SLICE: to accept the latest typed value
     setInputArr(newArr);
