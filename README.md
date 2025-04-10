@@ -92,6 +92,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 - OTP Input
   - Difficulty: Very Easy
   - **Companies**: Myntra, Flipkart, Swiggy
+  - Time Estimate: 20-25 min
   - Question and Reference: [Click here](https://youtu.be/usVdJONI99k?si=9UlgXNn_9BB6f5Ot)
 
 - Progress Bar
