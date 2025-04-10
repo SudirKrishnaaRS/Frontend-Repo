@@ -5,7 +5,14 @@ const ProgressBar = ({ progress }) => {
   const [animatedProgressPercent, setAnimatedProgressPercent] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => setAnimatedProgressPercent(progress), 200);
+    let timer = setTimeout(() => {
+      return setAnimatedProgressPercent(progress);
+    }, 200);
+
+    // Clean Up
+    return () => {
+      clearTimeout(timer);
+    };
   }, [progress]);
 
   return (
