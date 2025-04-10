@@ -12,7 +12,15 @@ const ProgressBar = ({ progress }) => {
     // OUTER is the PROGRESS BAR CONTAINER
     <div className="outer">
       {/* INNER is the PROGRESS BAR */}
-      <div className="inner" style={{ width: `${animatedProgressPercent}%` }}>
+      <div
+        className="inner"
+        style={{ width: `${animatedProgressPercent}%` }}
+        // ACCESSIBLITY
+        role="progressbar" // better accessiblity by asigning the role as progressbar
+        aria-valuenow={progress} // for current value
+        aria-valuemin={0} // for minimum value
+        aria-valuemax={100} // for maximum value
+      >
         {progress}%
       </div>
     </div>
