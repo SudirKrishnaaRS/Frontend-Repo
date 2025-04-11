@@ -5,6 +5,7 @@ import "./App.css";
 
 function App() {
   const [searchVal, setSearchVal] = useState("");
+  const [showSearchResult, setShowSearchResult] = useState(false);
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
@@ -28,15 +29,18 @@ function App() {
         placeholder="search here..."
         value={searchVal}
         onChange={(e) => setSearchVal(e.target.value)}
+        onFocus={() => setShowSearchResult(true)}
+        onBlur={() => setShowSearchResult(false)}
       />
       <div className="search-results-container">
-        {data?.recipes?.map((ele) => {
-          return (
-            <span key={ele.id} className="search-result">
-              {ele.name}
-            </span>
-          );
-        })}
+        {showSearchResult &&
+          data?.recipes?.map((ele) => {
+            return (
+              <span key={ele.id} className="search-result">
+                {ele.name}
+              </span>
+            );
+          })}
       </div>
     </>
   );
