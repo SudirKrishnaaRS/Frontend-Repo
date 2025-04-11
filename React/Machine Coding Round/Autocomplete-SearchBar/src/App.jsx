@@ -21,7 +21,7 @@ function App() {
     const timer = setTimeout(() => fetchData(), 300);
 
     return () => {
-      clearInterval(timer);
+      clearTimeout(timer);
     };
   }, [searchVal]);
 
