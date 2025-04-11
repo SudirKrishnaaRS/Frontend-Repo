@@ -1,4 +1,4 @@
-# AutoComplete Search Bar
+# AutoComplete Search Bar (Must Re-watch as it covers multiple concepts)
 
 - Difficulty: Very Easy
 - **Companies**: Amazon, Ola
