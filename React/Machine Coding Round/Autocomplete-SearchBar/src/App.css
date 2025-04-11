@@ -1,3 +1,30 @@
 #root {
   text-align: center;
 }
+
+.search-bar {
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-results-container {
+  width: 515px;
+  border: 1px solid black;
+  margin: auto;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.search-result {
+  display: block;
+  text-align: start;
+  margin: 10px 7px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.search-result:hover {
+  font-weight: bolder;
+  background-color: rgb(231, 231, 231);
+}
