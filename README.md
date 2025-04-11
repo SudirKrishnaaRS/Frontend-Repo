@@ -100,6 +100,12 @@ This template provides a minimal setup to get React working in Vite with HMR and
   - **Companies**: Google, Uber, Meta
   - Time Estimate: 15-20 min
   - Question and Reference: [Click here](https://youtu.be/MrJ8gjQBwr4?si=vUGRMS2IFonGYYxw)
+ 
+- AutoComplete Search Bar (Must re-watch as it covers multiple concepts: Debounce, Caching, API)
+  - Difficulty: Very Easy
+  - **Companies**: Amazon, Ola
+  - Timing: 35-40 min
+  - Reference: [Click here](https://youtu.be/fL0gfeDHKP0?si=PNXPEIDiDYbU5jZ8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
