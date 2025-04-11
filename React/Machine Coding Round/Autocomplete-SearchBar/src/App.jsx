@@ -41,16 +41,16 @@ function App() {
         onFocus={() => setShowSearchResult(true)}
         onBlur={() => setShowSearchResult(false)}
       />
-      <div className="search-results-container">
+      <ul className="search-results-container">
         {showSearchResult &&
           data?.recipes?.map((ele) => {
             return (
-              <span key={ele.id} className="search-result">
+              <li key={ele.id} className="search-result">
                 {ele.name}
-              </span>
+              </li>
             );
           })}
-      </div>
+      </ul>
     </>
   );
 }

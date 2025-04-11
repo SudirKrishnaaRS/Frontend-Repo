@@ -9,7 +9,8 @@
 }
 
 .search-results-container {
-  width: 515px;
+  width: 480px;
+  list-style: none;
   border: 1px solid black;
   margin: auto;
   max-height: 300px;
