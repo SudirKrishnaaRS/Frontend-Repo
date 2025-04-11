@@ -17,7 +17,12 @@ function App() {
   };
 
   useEffect(() => {
-    fetchData();
+    // Debouncing : SIMPLY Just use timeout with clearTimer
+    const timer = setTimeout(() => fetchData(), 300);
+
+    return () => {
+      clearInterval(timer);
+    };
   }, [searchVal]);
 
   return (
