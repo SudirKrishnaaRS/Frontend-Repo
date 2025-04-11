@@ -9,11 +9,15 @@ function App() {
   const [data, setData] = useState([]);
 
   const fetchData = async () => {
-    const response = await fetch(
-      `https://dummyjson.com/recipes/search?q=${searchVal}`
-    );
-    const result = await response.json();
-    setData(result);
+    try {
+      const response = await fetch(
+        `https://dummyjson.com/recipes/search?q=${searchVal}`
+      );
+      const result = await response.json();
+      setData(result);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
   };
 
   useEffect(() => {
