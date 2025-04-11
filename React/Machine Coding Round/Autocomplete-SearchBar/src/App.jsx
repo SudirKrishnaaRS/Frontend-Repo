@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-// API: 'https://dummyjson.com/recipes/search?q=Margherita'
+// API Endpoint: 'https://dummyjson.com/recipes/search?q=Margherita'
 
 function App() {
   const [searchVal, setSearchVal] = useState("");
