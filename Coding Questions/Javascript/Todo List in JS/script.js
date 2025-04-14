@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Edit and Remove
   todoList.addEventListener("click", (event) => {
-    console.log(event);
     const target = event.target;
     if (target.tagName === "BUTTON") {
       const todoItem = target.parentNode;
