@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Edit and Remove
   todoList.addEventListener("click", (event) => {
     console.log(event);
     const target = event.target;
