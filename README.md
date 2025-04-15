@@ -110,6 +110,13 @@ This template provides a minimal setup to get React working in Vite with HMR and
   - **Companies**: Amazon, Ola
   - Timing: 35-40 min
   - Reference: [Click here](https://youtu.be/fL0gfeDHKP0?si=PNXPEIDiDYbU5jZ8)
+ 
+- Pagination
+  - Difficulty: Very Easy
+  - **Companies**: Swiggy, Flipkart
+  - Timing: 40-45 min
+  - Reference: [Click here](https://youtu.be/J-QIayOSDN8?si=tirhQtI6pl0sfgwN)
+    
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
