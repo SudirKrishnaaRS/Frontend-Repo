@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
-import { useState } from "react";
-import ProductCard from "./components/ProductCard/ProductCard";
 import { PAGE_SIZE } from "./utils/constants";
+import Pagination from "./components/Pagination/Pagination";
+import ProductCard from "./components/ProductCard/ProductCard";
 
 //API Endpoint: 'https://dummyjson.com/products?limit=500'
 
@@ -26,10 +26,6 @@ function App() {
   const start = currentPage * PAGE_SIZE;
   const end = start + PAGE_SIZE;
 
-  const handlePageChange = (num) => {
-    setCurrentPage(num);
-  };
-
   if (data.length <= 0) {
     return <div>No products found</div>;
   }
@@ -37,15 +33,17 @@ function App() {
   return (
     <>
       <h1>Pagination</h1>
-      {/* PAGINATION */}
-      {[...Array(pageNumber).keys()].map((num, index) => {
-        return (
-          <button key={index} onClick={() => handlePageChange(num)}>
-            {num + 1}
-          </button>
-        );
-      })}
 
+      {/* PAGINATION */}
+      <Pagination
+        pageNumber={pageNumber}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
+
+      <div className="showing-supportLabel">
+        {`Showing ${currentPage + 1} of ${pageNumber} pages`}{" "}
+      </div>
       <div className="product-container">
         {data?.slice(start, end).map((ele) => {
           return (
