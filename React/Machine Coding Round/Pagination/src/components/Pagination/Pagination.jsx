@@ -1,3 +1,5 @@
+import "./Pagination.css";
+
 /* eslint-disable react/prop-types */
 const Pagination = ({ pageNumber, currentPage, setCurrentPage }) => {
   const handlePageChange = (num) => {
@@ -19,7 +21,11 @@ const Pagination = ({ pageNumber, currentPage, setCurrentPage }) => {
       </button>
       {[...Array(pageNumber).keys()].map((num, index) => {
         return (
-          <button key={index} onClick={() => handlePageChange(num)}>
+          <button
+            key={index}
+            className={currentPage === num ? "active" : ""}
+            onClick={() => handlePageChange(num)}
+          >
             {num + 1}
           </button>
         );
