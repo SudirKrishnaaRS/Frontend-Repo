@@ -1,7 +1,8 @@
 # Currying in JS
 
 > Reference Vid: [Click here](https://youtu.be/vQcCNpuaJO8?si=9HuaJKA_OtjfSBPJ)
-> Reference Blog: [Click here](https://builtin.com/software-engineering-perspectives/currying-javascript#:~:text=Currying%20in%20JavaScript%20transforms%20a,1)(2)(3)%20.)
+
+> Reference Blog: [Click here](https://builtin.com/software-engineering-perspectives/currying-javascript#:~:text=Currying%20in%20JavaScript%20transforms%20a,1)
 
 - Currying is a functional programming technique that transforms a function with multiple arguments into a sequence of nested functions, each taking a single argument.
 - Simple example:
@@ -22,7 +23,7 @@ console.log(sum(1)(2)(3)); // 6
   - Currying helps you avoid passing the same variable again and again.
   - It helps to create a higher order function.
 
-- Currying in Javascript can be acheived using two ways:
+- Currying in Javascript can be acheived using two ways: (refer Video)
   - Currying achieved Using **Closures**
   - Currying achieved Using **Bind**
 
