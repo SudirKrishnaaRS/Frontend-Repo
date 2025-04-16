@@ -1,5 +1,7 @@
 # Currying in JS
 
+> Reference: [Click here](https://youtu.be/vQcCNpuaJO8?si=9HuaJKA_OtjfSBPJ)
+
 Currying in Javascript can be acheived using two ways
 
 - Currying achieved Using **Bind**
