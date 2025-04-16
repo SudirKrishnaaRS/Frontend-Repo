@@ -19,13 +19,12 @@ console.log(sum(1)(2)(3)); // 6
 ```
 
 - Uses:
-
   - Currying helps you avoid passing the same variable again and again.
-  - It helps to create a higher order function.
+  - It helps to create a higher-order function.
 
-- Currying in Javascript can be acheived using two ways: (refer Video)
-  - Currying achieved Using **Closures**
-  - Currying achieved Using **Bind**
+- Currying in JavaScript can be achieved using two ways: (refer Video)
+  - Currying achieved using **Closures**
+  - Currying achieved using **Bind**
 
 ## 1) Currying achieved Using Closures
 
